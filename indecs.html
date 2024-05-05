@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> интерент магазин
+    </title>
+    <link rel="stylesheet" href="css/itc-slider.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/accordion.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="container">
+            <nav class="nav">
+                <h4 class="logo">таки хотите купить хойку а денег нету не беда иидите к нам</h4>
+                <ul class="nav__list">
+                    <li class="nav__item"><a class="nav__link" href="">walking_tiger</a></li>
+                    <li class="nav__item"><a class="nav__link" href="">by_blood_alone</a></li>
+                    <li class="nav__item"><a class="nav__link" href="">no_step_back</a></li>
+                    <li class="nav__item"><a class="nav__link" href="">"secret_dlc</a></li>
+
+
+                    ]
+                </ul>
+                <div class="burger" onclick="burgerClick()">
+                    <div class="burger__line"></div>
+                    <div class="burger__line"></div>
+                    <div class="burger__line"></div>
+                </div>
+            </nav>
+
+            <button class="btn_menu" id="btn_menu">
+                meню
+
+            </button>
+            <div class="header__menu" id="menu">
+                <ul class="menu__list">
+
+
+                    <li class="menu__item"><a href="#" class="menu__link">карзина</a></li>
+                    <li class="menu__item"><a href="#" class="menu__link">акции(их_нету)</a></li>
+                    <li class="menu__item"><a href="#" class="menu__link">выйти</a></li>
+                    <li class="menu__item"><a href="#" class="menu__link"></a>меню</li>
+                    <li class="menu__item">
+                        <div class="theme">
+                            <h3 class="theme__title">!";№:%%:_</h3>
+                            <ul class="theme__list">
+                                <li class="them__item">
+                                    <div class="theme__light" onclick="chooselight()"></div>
+                                </li>
+                                <li class="them__item">
+                                    <div class="theme__dark" onclick="choosedark()"></div>
+                                </li>
+
+
+                            </ul>
+
+                        </div>
+
+                </ul>
+
+
+
+            </div>
+
+
+        </div>
+
+    </header>
+    <main class="main">
+
+        <div class="container">
+            <h1 class="shop__title">
+                игры в steam но дешевле
+
+
+
+
+            </h1>
+            <div class="itc-slider" data-slider="itc-slider">
+
+                <div class="itc-slider-wrapper">
+                    <div class="itc-slider-items">
+                        <div class="itc-slider-item">
+                            <img src="img/by-blood_alone.jpg" alt="new dlsc for hoi4" class="shop__img">
+
+
+
+
+                        </div>
+
+                        <div class="itc-slider-item">
+                            <img src="img/no_step_back_dlc.png" alt="new dlsc for hoi4" class="shop__img">
+
+
+
+                        </div>
+
+
+                    </div>
+                </div>
+                <button class="itc-slider-btn itc-slider-btn-prev   "></button>
+                <button class="itc-slider-btn itc-slider-btn-prev   "></button>
+            </div>
+            <div class="accordion" id="accordion-1">
+                <div class="accordion__item">
+                    <h2 class="accordion__header">
+                        короче
+                    </h2>
+                    <div class="accordion__body">всё что нужно</div>
+                </div>
+                <div class="accordion__item">
+                    <h2 class="accordion__header">
+                        короче прикол
+                    </h2>
+                    <div class="accordion__body">Сегодня начал кампанию за СССР. В Абиссинской войне случился у меня
+                        прикол. Решил проверить возможность победить итальянцев. Выбрал целью порт Асмара в Эритрее,
+                        через него итальянцы снабжались. Подгадал момент и захватил (там у меня было две дивизии
+                        горнострелков). Итальянцы конечно начали пытаться меня выбить, но безуспешно. Потом они высадили
+                        армию в соседнюю непортовую провинцию, зажатую со всех сторон эфиопами и мной. Я там в течении
+                        года уничтожил около пяти дивизий, потом отвлекся на испанскую гражданскую, за это время
+                        макаронники высадили в этой провинции 26 дивизий, включая две танковые, несколько горняков и
+                        пехоту. Пока я в Испании воевал, организация и боеспособность этих горе-вояк упала ниже плинтуса
+                        и я их уничтожил одной горной дивизией. Это была половина их армии. Я был в шоке от тупости ИИ.
+                        Потом захватил всю Эфиопию, Сомали и Эритрею. Пока возился на юге, они наклепали дивизий и
+                        высадились на севере. Короче у Эфиопии нет шансов победить, только перевести этот конфликт в
+                        перманентное состояние. Меня честно говоря от этого ТВД уже тошнит. Хочу побыстрее слить Аддис
+                        Абебу и свалить в Союз, а то уже 38 год, скоро с немцами воевать, а тут африканцев спасай
+                        понимаешь...</div>
+                </div>
+                <div class="accordion__item">
+                    <h2 class="accordion__header">
+                        прикол2
+                    </h2>
+                    <div class="accordion__body">
+                        <p class="shop__price">100р</p>
+                        <button class="shop__btm" id="btm" onclick="buy()">купить</button>
+                    </div>
+                </div>
+
+            </div>
+
+
+            <!-- <h2 class="shop__title">прикол</h2>   
+
+            
+            <p class="shop__text">вышло новое длс за 1к а у тебя нету денег не беда покупайте у нас</p>
+            <h2 class="shop__title">цена</h2>
+            <p class="shop__price">100р</p>
+            <button class="shop__btm" id="btm" onclick="buy()">купить</button> -->
+        </div>
+
+
+        <section class="shop">
+
+
+
+        </section>
+        <section class="map">
+            <div class="container">
+                <h2 class="map__title">короче это всё обман</h2>
+                <ul class="map__list">
+                    <li class="map__item">
+                        <h3 class="list__title">место положение автора</h3>
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d8048955.8224129155!2d25.291869284968563!3d-75.74360464784962!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sru!2sru!4v1712493632390!5m2!1sru!2sru"
+                            width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+                    </li>
+
+                    <li class="map__item">
+                        <h3>яндекс карты</h3>
+                        <script type=""></script>
+
+
+
+                    </li>
+
+                </ul>
+
+
+            </div>
+
+
+        </section>
+
+    </main>
+    <footer class="footer">
+        <p class="footer__text">&copy; 1488 создано мной </p>
+
+
+    </footer>
+
+
+    <script src="scripts/script.js">
+    </script>
+    <script src="scripts/itc-slider.js">
+    </script>
+    <script src="scripts/menu.js">
+    </script>
+    <script src="scripts/accordion.js"></script>
+    <script src="scripts/theme.js"></script>
+    <script src="scripts/burger.js"></script>
+
+
+</body>
+
+
+
+
+</html>
